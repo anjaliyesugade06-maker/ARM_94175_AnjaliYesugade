@@ -1,0 +1,10 @@
+10:02:42 **** Incremental Build of configuration Debug for project HAL_EXINTR ****
+make -j4 all 
+arm-none-eabi-size  HAL_EXINTR.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6296	     12	   1572	   7880	   1ec8	HAL_EXINTR.elf
+Finished building: default.size.stdout
+ 
+
+10:02:44 Build Finished. 0 errors, 0 warnings. (took 1s.774ms)
+
