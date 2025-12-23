@@ -1,0 +1,10 @@
+08:49:53 **** Incremental Build of configuration Debug for project HAL_LED_toogle ****
+make -j4 all 
+arm-none-eabi-size  HAL_LED_toogle.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5976	     12	   1572	   7560	   1d88	HAL_LED_toogle.elf
+Finished building: default.size.stdout
+ 
+
+08:49:55 Build Finished. 0 errors, 0 warnings. (took 2s.92ms)
+
