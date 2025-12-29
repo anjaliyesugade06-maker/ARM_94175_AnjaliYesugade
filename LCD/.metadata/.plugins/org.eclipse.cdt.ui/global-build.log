@@ -1,0 +1,14 @@
+10:34:41 **** Incremental Build of configuration Debug for project LCD ****
+make -j4 all 
+arm-none-eabi-size  LCD.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9692	     12	   1660	  11364	   2c64	LCD.elf
+Finished building: default.size.stdout
+ 
+10:34:51 **** Incremental Build of configuration Debug for project LCD ****
+make -j4 all 
+arm-none-eabi-size  LCD.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9692	     12	   1660	  11364	   2c64	LCD.elf
+Finished building: default.size.stdout
+ 

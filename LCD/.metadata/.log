@@ -324,3 +324,31 @@ Caused by: java.nio.channels.UnresolvedAddressException
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-12-26 09:09:56.092
 !MESSAGE Indexed 'LCD' (19 sources, 81 headers) in 9.01 sec: 4,442 declarations; 18,507 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0087%)
+!SESSION 2025-12-26 09:43:04.469 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\eZee1\Desktop\sunbeam\IIT-08-A-ARM\Day-10\HAL_LCD_LECTURE\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\eZee1\Desktop\sunbeam\IIT-08-A-ARM\Day-10\HAL_LCD_LECTURE\.cproject
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-26 09:43:46.573
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-26 09:43:46.576
+!MESSAGE Log4j2 initialized with config file C:\Users\eZee1\Desktop\Git\ARM_94175_Anjali\ARM_94175_AnjaliYesugade\LCD\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-26 09:44:04.452
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-26 09:50:52.888
+!MESSAGE Indexed 'LCD 1' (19 sources, 115 headers) in 9.89 sec: 10,355 declarations; 36,010 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.51%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-26 09:54:43.941
+!MESSAGE Indexed 'LCD' (22 sources, 124 headers) in 11.1 sec: 11,600 declarations; 48,745 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.4%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-26 10:56:47.386
+!MESSAGE Indexed 'Buzzer' (20 sources, 142 headers) in 16.8 sec: 11,802 declarations; 38,887 references; 5 unresolved inclusions; 121 syntax errors; 1,134 unresolved names (2.2%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-26 10:58:10.911
+!MESSAGE Indexed 'Buzzer UART' (20 sources, 120 headers) in 12.1 sec: 11,369 declarations; 42,709 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.44%)

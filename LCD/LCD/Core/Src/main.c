@@ -87,6 +87,17 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
+  if (!lcd16x2_i2c_init(&hi2c1))
+    {
+        // LCD not detected
+        while(1);
+     }
+
+          lcd16x2_i2c_clear();
+
+          //Print on 1st line
+          lcd16x2_i2c_setCursor(0, 0);   // Row 0, Col 0
+          lcd16x2_i2c_printf("sunbeam");
 
   /* USER CODE END 2 */
 
