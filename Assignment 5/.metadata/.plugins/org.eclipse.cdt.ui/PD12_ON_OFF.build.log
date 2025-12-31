@@ -1,0 +1,10 @@
+01:19:46 **** Incremental Build of configuration Debug for project PD12_ON_OFF ****
+make -j4 all 
+arm-none-eabi-size  PD12_ON_OFF.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1040	      4	   1564	   2608	    a30	PD12_ON_OFF.elf
+Finished building: default.size.stdout
+ 
+
+01:19:48 Build Finished. 0 errors, 0 warnings. (took 2s.486ms)
+

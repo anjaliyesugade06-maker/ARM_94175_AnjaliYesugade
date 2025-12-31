@@ -1,0 +1,10 @@
+01:04:51 **** Incremental Build of configuration Debug for project 2_LEDs_ON_OFF ****
+make -j4 all 
+arm-none-eabi-size  2_LEDs_ON_OFF.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1076	      4	   1564	   2644	    a54	2_LEDs_ON_OFF.elf
+Finished building: default.size.stdout
+ 
+
+01:04:54 Build Finished. 0 errors, 0 warnings. (took 3s.104ms)
+
